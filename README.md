@@ -29,20 +29,18 @@ Exemplo de uso prático: Monitoramento contínuo de dispositivos em uma rede cor
 ✅ Pode ser automatizado para rodar a cada X horas (via Agendador de Tarefas no Windows ou `cron` no Linux)
 
 ### Como Usar
-### 1. Instale as dependências
+### Instale as dependências
 
 pip install -r requirements.txt
 
-### 2. Instale o Nmap
+### Instale o Nmap
 Faça o download do Nmap e instale no seu sistema:
 - [Windows](https://nmap.org/download.html) – Para Windows, baixe o instalador e siga o assistente.
 - [Linux/Mac](https://nmap.org/download.html) – Instale via gerenciador de pacotes (ex: `sudo apt install nmap` no Ubuntu).
-
 Após instalar, verifique se o Nmap está funcionando corretamente no terminal:
-```bash
 nmap -V
 
-### 3. Configure o Token do Bot
+### Configure o token do Bot
 Crie um bot no Telegram usando o BotFather e copie o token.
 
 Use o @userinfobot para descobrir o seu chat_id.
@@ -51,7 +49,7 @@ No código Python, substitua:
 token = "SEU_TOKEN"
 chat_id = SEU_CHAT_ID
 
-###  Executando o Projeto
+### Executando o Projeto
 Execute o bot com:
 python main.py
 
@@ -72,3 +70,4 @@ Este projeto reforçou conceitos importantes como:
 
 ###  Licença
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
