@@ -46,7 +46,7 @@ Crie um bot no Telegram usando o BotFather e copie o token.
 Use o @userinfobot para descobrir o seu chat_id.
 
 No código Python, substitua:
-token = "SEU_TOKEN"
+token = "SEU_TOKEN" e
 chat_id = SEU_CHAT_ID
 
 ### Executando o Projeto
